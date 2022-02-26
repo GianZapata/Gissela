@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Redressed&display=swap');
+
+body { 
+   font-family: 'Poppins', sans-serif;
+}
+
+.logo { 
+   font-family: 'Redressed', cursive; 
+   font-size: 52px;
+}
+
+.bg-pink  {
+   background-color: #e082a8;
+}
+
+a, .btn-link { 
+   text-decoration: none;
+}
+
+.btn-link:hover {
+   text-decoration: underline;
+   transition: 0.3s ease-in-out;
+   -webkit-transition: 0.3s ;
+   -moz-transition: 0.3s ;
+   -ms-transition: 0.3s ;
+   -o-transition: 0.3s ;   
+}
