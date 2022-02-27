@@ -60,6 +60,16 @@ a, .btn-link {
    gap: 20px;
 }
 
+.grid-cols-5{
+   grid-template-columns: repeat(5, 1fr);
+   gap: 20px;
+}
+
+.grid-cols-9{
+   grid-template-columns: repeat(9, 1fr);
+   gap: 20px;
+}
+
 .borde-texto {
    border: 1px solid #e082a8;
    padding: 10px;
